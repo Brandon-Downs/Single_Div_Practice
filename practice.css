@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.mat{
+    display: flex;
+    width: 100%;
+    height: 555px;
+    background: rgb(139, 139, 139);
+}
+
+/************************************************************************
+*********** ONE & TWO
+************************************************************************/
+
+
+.canvas,
+.canvas2 {
+    position: relative;
+    width: 200px;
+    height: 225px;
+    background-color: yellow;
+    border-top: 30px solid yellow;
+    border-bottom: 50px solid yellow;
+    border-right: 55px solid yellow;
+    border-left: 55px solid yellow;
+    box-shadow: inset 0 -13px rgb(62, 0, 0);
+    margin: auto;
+}
+
+.canvas2 {
+    border-radius: 50%;
+}
+
+.canvas:after,
+.canvas:before,
+.canvas2:after,
+.canvas2:before {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 64px;
+    border-radius: 50%;
+    background: rgb(253, 233, 228);
+    background-image: radial-gradient(circle at 40px 25px, black 10%, blue 20%, transparent 25%), radial-gradient(circle at 38px 23px, white 9%, transparent 80%);
+}
+
+.canvas:after,
+.canvas:before {
+    border: 1px solid black;
+}
+.canvas2:after,
+.canvas2:before {
+    height: 44px;
+    border-bottom: 14px solid rgba(0, 0, 0, 0.68);
+    border-top: 10px solid rgba(0, 0, 0, 0.68);
+    background: rgb(255, 150, 124);
+    background-image: radial-gradient(circle at 40px 25px, black 10%, blue 20%, transparent 25%), radial-gradient(circle at 38px 23px, white 9%, transparent 80%);
+}
+
+.canvas:before{
+    top: 12%;
+    left: 7%;
+    box-shadow: -4px 15px 10px 9px rgba(0, 0, 0, 0.03);
+
+}
+
+.canvas2:before{
+    top: 12%;
+    left: 7%;
+    border-right: 1px solid rgba(0, 0, 0, 0.68);
+    box-shadow: -4px 15px 10px 9px rgba(0, 0, 0, 0.12);
+
+}
+
+.canvas:after,
+.canvas2:after {
+    right: 9%;
+}
+
+.canvas:after{
+    top: 12%;
+    box-shadow: 4px 14px 10px 9px rgba(0, 0, 0, 0.03);
+}
+
+.canvas2:after{
+    top: 12%;
+    border-left: 1px solid rgba(0, 0, 0, 0.68);
+    box-shadow: 4px 14px 10px 9px rgba(0, 0, 0, 0.12);
+}
+
+/************************************************************************
+*********** NIGHT SKY
+************************************************************************/
+
+.canvas3 {
+    min-width: 450px;
+    height: 450px;
+    background: rgb(0, 18, 72);
+    background-image: 
+        radial-gradient(circle at 260px 130px, white 2px, transparent 1px),
+        radial-gradient(circle at 144px 327px, white 1px, transparent 1px),
+        radial-gradient(circle at 370px 230px, white 1px, transparent 1px),
+        radial-gradient(circle at 40px 30px, white 1px, transparent 1px),
+        radial-gradient(circle at 50px 310px, white 0px, transparent 1px),
+        radial-gradient(circle at 270px 280px, white 0px, transparent 1px),
+        radial-gradient(circle at 430px 30px, white 1px, transparent 1px),
+        radial-gradient(circle at 400px 310px, white 1px, transparent 1px),
+        linear-gradient(rgba(0, 255, 255, 0.27), rgba(0, 0, 62, 0.66)),
+        radial-gradient(circle farthest-corner at 595px 45px , rgb(0, 255, 255) 13%,  #00003e 14%, rgba(0, 0, 154, 0.39) 45%, #00003e 65%, rgba(0, 255, 255, 0) 75%, #00003e 77%, rgba(0, 255, 255, 0) 87%);
+    margin: auto;
+}
+
+
+/************************************************************************
+*********** 
+************************************************************************/
+
+
+
+.canvas4 {
+    position: relative;
+    min-width: 450px;
+    height: 400px;
+    background: rgb(162, 233, 255);
+    background-image: 
+        radial-gradient(circle at 80px 80px, rgba(247, 230, 161, 0.53) 42px, transparent 121px),
+        radial-gradient(circle at 80px 80px, #eded61 33px, transparent 42px);
+    margin: auto;
+    border-bottom: #4e954e 100px solid;
+    border-radius: 5px 50px;
+    box-sizing: border-box
+}
+
+.canvas4:after,
+.canvas4:before {
+    content: '';
+    position: absolute;
+    
+    
+
+}
+
+.canvas4:before {
+    width: 128px;
+    height: 84px;
+    bottom: -5%;
+    right: 9%;
+    background: rgb(80, 0, 0);
+    background-image: linear-gradient(180deg, rgb(13, 9, 5), 17%, transparent );
+       
+}
+
+.canvas4:after {
+    width: 70px; 
+    height: 0; 
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+
+    border-bottom: 45px solid rgb(49, 0, 0);
+    right: 5.5%;
+    bottom: 23%;
+    
+}
+
+/************************************************************************
+*********** 
+************************************************************************/
+
+
+.canvas5 {
+    margin: auto;
+    background-color: yellow;
+    border-bottom: 160px solid orange;
+    border-right: 160px solid red;
+    border-left: 160px solid green;
+    border-top: 160px solid blue;
+    border-radius: 50%;
+    min-width: 100px;
+    height: 100px;
+/*    box-shadow: 10px -15px 15px rgba(0, 0, 0, 0.91);*/
+    background-image: radial-gradient(circle at 80px 80px, white 30%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************************
+*********** 
+************************************************************************/
+
+
+
+
+
+
+
+
+.cont {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+}
+
+.pract {
+    background: blue;
+    padding: 15px;
+    margin: 7px;
+/*    flex: 1;*/
+/*    width: 500px*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
